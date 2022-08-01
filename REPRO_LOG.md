@@ -183,7 +183,7 @@ For what measurment was used. Similarily, the study failed to mention whether al
 Another challenge was the smoker criteria. The orignal study used NLP to detect presence of smoker. The MIMIC IV database didn't have a notes section and patients, hospital, and ICU schemas didn't have an area for this. In addition, I also removed this variable from the reproduced study as it is not used during analysis. 
 
 
-Another challenge throughout the study was the baseline demographics table replication. Much of the study failed to mention how variables were grouped, and this was very unclear throughout the paper. It required looking into distinct values and original documentations for each variable who's categories deviated from the original study. This not only created issues with further statisitcal analysis as variables like ICD code, ICD procedures used as it over estimated or underestimated the variable categories. 
+Another challenge throughout the study was the baseline demographics table replication. Much of the study failed to mention how variables were grouped, and this was very unclear throughout the paper. It required looking into distinct values and original documentations for each variable who's categories deviated from the original study. This not only created issues during the exploratory analysis, it led to further  challenges during statisitcal analysis as variables like severity score , ICU and ICD procedures were over estimated/underestimated which had various statistical tests run on them.
 
 ICU laboratory measurements used in the original study indicated using to most abnormal value for each SOFA AND SAPSII measurement, I used the maximum value for each measurement. However, the study used a mixture of both depending on the variable. 
 
