@@ -187,7 +187,7 @@ Another challenge throughout the study was the baseline demographics table repli
 
 ICU laboratory measurements used in the original study indicated using to most abnormal value for each SOFA AND SAPSII measurement, I used the maximum value for each measurement. However, the study used a mixture of both depending on the variable. 
 
-I think some things that could be improved within the study would be clarifying the above variables in detail for any individual interested in replicating the study. The statistical analysis carried out in the study would have been more accurate and representative for the study. Similarily, another approach to improve reproducibility reasoning behind using certain methodologies. This would address any missing gaps/details the reader had during the initial study. 
+I think some things that could be improved within the study would be clarifying the above variables in detail for any individual interested in replicating the study. The statistical analysis carried out in the study would have been more accurate and representative for the study. Similarily, another approach to improve reproducibility reasoning behind using certain methodologies. This would address any missing gaps/details the reader had during the initial reproduction. 
 
 
 
