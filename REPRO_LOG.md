@@ -125,7 +125,6 @@ A table comparing the population measures between the original and the reproduct
 
 A table of the evaluation measures comparing the results in the original study and the reproduction. Also include the final size of the cohort, proportion of individuals excluded, and other important summary measures for the study.
 
-Evaluation measure | Original Study | Reproduction
 
 Baseline measurements:
 
