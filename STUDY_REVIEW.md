@@ -139,7 +139,7 @@ No power calculations were made.
 
 ### Evaluation measures
 
-p-value- 0.05 significance for all tests.  Stepwise backward elimination was used for model selection. Non-normal variables were adjusted applying a transformation of log base 10. 
+p-value- 0.05 significance for all tests. Stepwise backward elimination was used for model selection. Non-normal variables were adjusted applying a transformation of log base 10. 
 
 ### Sensitivity Analyses
 

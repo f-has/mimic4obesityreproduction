@@ -9,7 +9,7 @@ Deliberato RO1, Ko S, Komorowski M, Armengol de La Hoz MA, Frushicheva MP, Raffa
 
 The study showed after analysis that suggest that the deviations in all SOFA and SAPS laboratory values from baseline to the most abnormal value in the first 24hours of ICU stay are significantly higher in obese patients.
 
-The code here reproduces this study in the MIMIC-IV database. All code was newly written based upon the description of the study in the published paper.In the case where items were not clear, decisions were made based on best judgement, the original code was used when items were unclear in the study. As the original study was performed in MIMIC-III, the patients in this study distinct, and this can be considered a replication of the original study.
+The code here reproduces this study in the MIMIC-IV database. All code was newly written based upon the description of the study in the published paper. Where information was unclear, decisions were made based on best judgement, the original code was used when items were unclear in the study. As the original study was performed in MIMIC-III, the patients in this study distinct, and this can be considered a replication of the original study.
 
 Requirements
 In order to run the code, you must:

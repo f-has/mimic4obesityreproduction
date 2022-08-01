@@ -6,8 +6,6 @@ The following is a logbook/ultimate conclusion for a reproduction of a published
 Reproduction  Study of Severity of Illness Scores May Misclassify Critically Ill Obese Patients*
 
 
-The title of the reproduced study with its digital object identifier (DOI).
-
 Reproduction  Study of Severity of Illness Scores May Misclassify Critically Ill Obese Patients*
 10.5281/zenodo.6862922
 
@@ -158,18 +156,16 @@ Deviation Measurements
 TABLE 3. Multivariable Linear Regression of
 Laboratory Deviation (Δ = ICU – Baseline)
 
-
 | Variables                        | Original Study : Adjusted Difference in Deviation (ICU - Baseline) Between Obese and Normal Weight Individuals (95% CI) | original p-value | Reproduce study: Adjusted Difference in Deviation (ICU - Baseline) Between Obese and Normal Weight Individuals (95% CI) | reproduced pvalue |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| WBC, x 109/L                     | 0.80 (0.27-1.33)                                                                                                        | 0.003            | 0.64(0.52 to 0.76)                                                                                                      | <0.001            |
-| Sodium, mmol/L                   | \-0.06 (-0.40 to 0.28)                                                                                                  | 0.712            | \-0.64(-0.7 to 0.57)                                                                                                    | <0.001            |
-| Potassium, mmol/L                | 0.01 (-0.07 to 0.09)                                                                                                    | 0.857            | \-0.74(-0.81 to -0.67)                                                                                                  | <0.001            |
-| log (blood urea nitrogen, mg/dL) | 0.01 (0.00-0.02)                                                                                                        | 0.014            | \-0.35 ( -0.40 to -0.30)                                                                                                | <0.001            |
-| Bicarbonate, mg/dL               | \-0.19 (-0.50 to 0.13)                                                                                                  | 0.254            | \-0.65 (-0.70 to -0.60)                                                                                                 | <0.001            |
-| log (creatinine, mg/dL)          | 0.03 (0.02-0.05)                                                                                                        | 0.001            | \-0.26  (-0.31 to -0.22)                                                                                                | <0.001            |
-| Platelets, x109/L                | 4.94 (-2.48 to 12.36)                                                                                                   | 0.192            | \-0.36 (-0.41 to -0.32)                                                                                                 | <0.001            |
-
-
+| WBC, x 109/L                     | 0.80 (0.27-1.33)                                                                                                        | 0.003            | 0.25(-0.08 to 0.58)                                                                                                     | 0.14              |
+| Sodium, mmol/L                   | \-0.06 (-0.40 to 0.28)                                                                                                  | 0.712            | 0.04 (-0.14 to 0.23)                                                                                                    | 0.66              |
+| Potassium, mmol/L                | 0.01 (-0.07 to 0.09)                                                                                                    | 0.857            | 0.05(0.02 to 0.08)                                                                                                      | 0.001             |
+| log (blood urea nitrogen, mg/dL) | 0.01 (0.00-0.02)                                                                                                        | 0.014            | 0.008 ( 0 to 0.016)                                                                                                     | 0.043             |
+| Bicarbonate, mg/dL               | \-0.19 (-0.50 to 0.13)                                                                                                  | 0.254            | 0.03( -0.12 to 0.18)                                                                                                    | 0.658             |
+| log (creatinine, mg/dL)          | 0.03 (0.02-0.05)                                                                                                        | 0.001            | \-0.26 (-0.31 to -0.21)                                                                                                 | <0.001            |
+| Platelets, x109/L                | 4.94 (-2.48 to 12.36)                                                                                                   | 0.192            | 5.8  (2.61 to 8.94)                                                                                                     | <0.001            |
+|  
 
 ## Conclusion(s) regarding reproducibility
 
@@ -182,14 +178,14 @@ For instance the exclusions for the laboratory measurements were challenging to 
 laboratory measurement type was used for the inclusion. Certain variables like potassium, sodium, creatinine are measured in blood chemistry, 
 urine, blood gas. Moreover, the lab events had multiple measurements for each variable. I opted to stick with blood chemistry as the main criteria 
 
-For what measurment was used. Similarily, the study failed to mention whether all laboratory measurements had to be measured within the time window recorded in the study. For each individual to classify as the final cohort, all subjects had to have every measurement present in the time frame. 
+For what measurment was used. Similarily, the study failed to mention whether all laboratory measurements had to be measured within the time window recorded in the study or just some variables. For each individual to classify as the final cohort, all subjects had to have every measurement present in the time frame. 
 
 Another challenge was the smoker criteria. The orignal study used NLP to detect presence of smoker. The MIMIC IV database didn't have a notes section and patients, hospital, and ICU schemas didn't have an area for this. In addition, I also removed this variable from the reproduced study as it is not used during analysis. 
 
 
 Another challenge throughout the study was the baseline demographics table replication. Much of the study failed to mention how variables were grouped, and this was very unclear throughout the paper. It required looking into distinct values and original documentations for each variable who's categories deviated from the original study. This not only created issues with further statisitcal analysis as variables like ICD code, ICD procedures used as it over estimated or underestimated the variable categories. 
 
-ICU laboratory measurements used in the original study indicated using to most abrnormal value for each SOFA AND SAPSII measurement, I used the maximum value for each measurement. However, the study used a mixture of both depending on the variable. 
+ICU laboratory measurements used in the original study indicated using to most abnormal value for each SOFA AND SAPSII measurement, I used the maximum value for each measurement. However, the study used a mixture of both depending on the variable. 
 
 I think some things that could be improved within the study would be clarifying the above variables in detail for any individual interested in replicating the study. The statistical analysis carried out in the study would have been more accurate and representative for the study. Similarily, another approach to improve reproducibility reasoning behind using certain methodologies. This would address any missing gaps/details the reader had during the initial study. 
 
