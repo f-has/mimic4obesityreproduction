@@ -3,8 +3,6 @@
 The following is a logbook/ultimate conclusion for a reproduction of a published scientific study. Feel free to add/remove sections as you find them useful.
 
 ## Title
-Reproduction  Study of Severity of Illness Scores May Misclassify Critically Ill Obese Patients*
-
 
 Reproduction  Study of Severity of Illness Scores May Misclassify Critically Ill Obese Patients*
 10.5281/zenodo.6862922
